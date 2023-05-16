@@ -28,7 +28,7 @@ public class Aula08 {
 
 // git add .
 // git branch "nome_do_branch"  -> um branch é uma ramificação independente de desenvolvimento que permite que você trabalhe em diferentes versões do seu projeto simultaneamente.
-// git commit -m "nome_do_branch" -> o uso do comando -m é apenas para criar uma mensagem. Sem o -m é marcado um novo registro da alteração dentro da ramificação.
+// git commit -m "nome_do_branch" -> o uso do comando -m é apenas para criar uma mensagem. Sem o -m é marcado um novo registro da alteração dentro dagit ramificação.
 // git push origin nome_do_branch  
 
 
