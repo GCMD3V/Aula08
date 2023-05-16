@@ -12,7 +12,7 @@ public class Aula08 {
 //git init -> inicia o projeto git
 //git add . -> adiciona todos os arqivos para serem armazenados no registro (é possível selecionar, exemplo: git add arquivo1.txt arquivo2.js ou git add caminho/do/diretorio/ ou até mesmo: arquivo1.txt arquivo2.js)
 //git commit -m "projeto criado" -> é um registro de uma alteração realizada, no caso, a criação do projeto, SALVA A ALTERAÇÃO NO RESPOSITÓRIO LOCAL
-//git branch "nome_do_branch"  -> um branch é uma ramificação independente de desenvolvimento que permite que você trabalhe em diferentes versões do seu projeto simultaneamente.
+//git branch "nome_do_branch"  -> um branch é uma ramificação(filial) independente de desenvolvimento que permite que você trabalhe em diferentes versões do seu projeto simultaneamente.
 //git push -u nome_do_branch -> O comando "git push -u nome_do_branch" é usado para enviar (push) o branch local para um repositório remoto e configurar uma relação de acompanhamento (tracking) entre o branch local e o branch remoto. A opção "-u" ou "--set-upstream" é utilizada para configurar a relação de acompanhamento entre as filiais local e remota. Ao utilizar essa opção, você estará estabelecendo uma associação entre o ramal local e o ramal remoto correspondente, permitindo que você utilize o comando "git push" posteriormente sem a necessidade de especificar o ramal remoto e local hoje.
 
 //UPDATE/ALTERAÇÃO/ATUALIZAÇÃO
