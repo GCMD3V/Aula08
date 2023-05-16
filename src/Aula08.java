@@ -40,7 +40,7 @@ public class Aula08 {
 
 // como remover os branch's
 // git branch -d nome_do_branch
-// git branch -d Aula.08new
+// git branch -d newVersion
 
 
 
