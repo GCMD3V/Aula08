@@ -8,6 +8,10 @@ public class Aula08 {
     }
 }
 
+//INTERLIGANDO O GIT INSTALADO NA MÁQUINA À CONTA DO GIT HUB
+// git config --global user.name "USUÁRIO_DO_GIT"
+// git config --global user.email "EMAIL_CADASTRADO" 
+
 // NOVO PROJETO
 //git init -> inicia o projeto git
 //git add . -> adiciona todos os arqivos para serem armazenados no registro (é possível selecionar, exemplo: git add arquivo1.txt arquivo2.js ou git add caminho/do/diretorio/ ou até mesmo: arquivo1.txt arquivo2.js)
