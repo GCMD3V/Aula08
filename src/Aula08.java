@@ -21,15 +21,14 @@ public class Aula08 {
 //git init
 //git add .
 //git commit -m "projeto criado"
-//git branch Aula.08
-//git push -u origin Aula.08
+//git branch "nome_do_branch"  -> um branch é uma ramificação independente de desenvolvimento que permite que você trabalhe em diferentes versões do seu projeto simultaneamente.
+//git push -u nome_do_branch
 
 
 // enviar alteração
 // faz uma cópia/clone da versão anterior
 
 // git add .
-// git branch "nome_do_branch"  -> um branch é uma ramificação independente de desenvolvimento que permite que você trabalhe em diferentes versões do seu projeto simultaneamente.
 // git commit -m "nome_do_branch" -> o uso do comando -m é apenas para criar uma mensagem. Sem o -m é marcado um novo registro da alteração dentro dagit ramificação.
 // git push origin nome_do_branch  
 
@@ -40,6 +39,7 @@ public class Aula08 {
 
 //movimentação entre os branch's
 // git checkout nome_do_branch
+// git checkout feature/alteracao
 
 
 // como mostrar todos os branch's
