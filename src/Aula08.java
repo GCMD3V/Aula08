@@ -9,8 +9,8 @@ public class Aula08 {
 }
 
 // NOVO PROJETO
-//git init
-//git add .
+//git init -> inicia o projeto git
+//git add . -> adiciona todos os arqivos para serem armazenados no registro (é possível selecionar, exemplo: git add arquivo1.txt arquivo2.js ou git add caminho/do/diretorio/ ou até mesmo: arquivo1.txt arquivo2.js)
 //git commit -m "projeto criado" -> é um registro de uma alteração realizada, no caso, a criação do projeto, SALVA A ALTERAÇÃO NO RESPOSITÓRIO LOCAL
 //git branch "nome_do_branch"  -> um branch é uma ramificação independente de desenvolvimento que permite que você trabalhe em diferentes versões do seu projeto simultaneamente.
 //git push -u nome_do_branch -> O comando "git push -u nome_do_branch" é usado para enviar (push) o branch local para um repositório remoto e configurar uma relação de acompanhamento (tracking) entre o branch local e o branch remoto. A opção "-u" ou "--set-upstream" é utilizada para configurar a relação de acompanhamento entre as filiais local e remota. Ao utilizar essa opção, você estará estabelecendo uma associação entre o ramal local e o ramal remoto correspondente, permitindo que você utilize o comando "git push" posteriormente sem a necessidade de especificar o ramal remoto e local hoje.
@@ -29,13 +29,12 @@ public class Aula08 {
 // git checkout nome_do_branch -> seleciona a branch, ou seja, permite navegar entre as branch's (ramificações)
 
 
-
 // Caso use o código abaixo não é necessário citar o nome_do_branch quando atualiza uma nova versão
 // git push (caso tenha executado o comando -> git push --set-upstream origin newVersion)
 
 
 // como mostrar todos os branch's
-// git branch 
+// git branch -> lista todas as ramificações/branchs existentes no respositório
 // git status -> O comando git statusé usado para exibir o estado atual do seu repositório Git. Ele fornece informações sobre os arquivos modificados, adicionados ou excluídos no seu diretório de trabalho, bem como informações sobre a filial atual e o estado do repositório em relação à filial remota.
 
 
@@ -54,3 +53,4 @@ Essas informações são armazenadas no diretório ".git" do seu projeto, que co
 No entanto, é importante ressaltar que os commits não são sincronizados automaticamente com um repositório remoto. Se você deseja compartilhar seus commits com outras pessoas ou sincronizá-los com um servidor remoto, você precisará usar o comando "git push" para enviar os commits para o repositório remoto correspondente. */
 
 
+//comando útil para abrir o terminal control+shift+'
