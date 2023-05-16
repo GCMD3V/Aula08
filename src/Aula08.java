@@ -44,7 +44,7 @@ public class Aula08 {
 
 
 //ENTENDENDO UM POUCO MAIS SOBRE BRANCH
-/* Peço desculpas por qualquer confusão anterior. Se você criar uma nova filial usando o comando git branch nome_do_branche não fizer o checkout para essa nova filial, as alterações feitas serão registradas na filial atual em que você estava no momento.
+/* Se você criar uma nova filial usando o comando git branch nome_do_branche não fizer o checkout para essa nova filial, as alterações feitas serão registradas na filial atual em que você estava no momento.
 
 Crie um novo branch com o comando git branch nome_do_branchapenas cria um novo ponteiro de branch, mas não atualize o HEAD para apontar para esse novo branch. Isso significa que os commits serão feitos no branch atual, mesmo que você tenha criado um novo branch.*/
 
