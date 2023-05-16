@@ -16,7 +16,7 @@ public class Aula08 {
 //git init -> inicia o projeto git
 //git add . -> adiciona todos os arqivos para serem armazenados no registro (é possível selecionar, exemplo: git add arquivo1.txt arquivo2.js ou git add caminho/do/diretorio/ ou até mesmo: arquivo1.txt arquivo2.js)
 //git commit -m "projeto criado" -> é um registro de uma alteração realizada, no caso, a criação do projeto, SALVA A ALTERAÇÃO NO RESPOSITÓRIO LOCAL
-//git branch "nome_do_branch"  -> um branch é uma ramificação(filial) independente de desenvolvimento que permite que você trabalhe em diferentes versões do seu projeto simultaneamente.
+//git branch -m "nome_do_branch"  -> Renomeia o branch master (padrão). Um branch é uma ramificação(filial) independente de desenvolvimento que permite que você trabalhe em diferentes versões do seu projeto simultaneamente.
 //git push -u nome_do_branch -> O comando "git push -u nome_do_branch" é usado para enviar (push) o branch local para um repositório remoto e configurar uma relação de acompanhamento (tracking) entre o branch local e o branch remoto. A opção "-u" ou "--set-upstream" é utilizada para configurar a relação de acompanhamento entre as filiais local e remota. Ao utilizar essa opção, você estará estabelecendo uma associação entre o ramal local e o ramal remoto correspondente, permitindo que você utilize o comando "git push" posteriormente sem a necessidade de especificar o ramal remoto e local hoje.
 
 //UPDATE/ALTERAÇÃO/ATUALIZAÇÃO
@@ -26,16 +26,25 @@ public class Aula08 {
 // git commit -m "nome da atualização" -> o uso do comando -m é apenas para criar uma mensagem/nome do registro. Sem o -m é aberta uma janela para inserir o texto.
 // git push origin nome_do_branch -> envia o commit ao branch situado no REPOSITÓRIO REMOTO 
 
+
+
+
 //COMANDOS ÚTEIS
+// git branch "nome_do_branch" -> cria uma nova ramificação sem excluir as anteriores
+// Se você quiser substituir o ramal padrão no repositório remoto, você também precisará atualizar o repositório remoto usando o comando git push --set-upstream origin nome_do_novo_branch para estabelecer o novo ramal como o padrão no repositório remoto.
 // git add src/Aula08.java  -> seleciona arquivos para salvar no repositório LOCAL a BRANCH atual
 // git commit -m "Salvar alterações antes de alternar para a branch 'alteracao'" -> salva o os arquivos adicinados ao respositório LOCAL
 
 // git checkout nome_do_branch -> seleciona a branch, ou seja, permite navegar entre as branch's (ramificações)
 
+// git remote add origin https://github.com/seuusuario/seurepositorio.git
+// git push -u origin main
 
 // Caso use o código abaixo não é necessário citar o nome_do_branch quando atualiza uma nova versão
 // git push (caso tenha executado o comando -> git push --set-upstream origin newVersion)
 
+// Renomear um branch que não seja o main
+// git branch -m "nome_do_branch_antigo" "nome_do_branch_novo"
 
 // como mostrar todos os branch's
 // git branch -> lista todas as ramificações/branchs existentes no respositório
