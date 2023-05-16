@@ -43,14 +43,20 @@ public class Aula08 {
 // git branch -d newVersion
 
 
+//ENTENDENDO UM POUCO MAIS SOBRE BRANCH
+/* Peço desculpas por qualquer confusão anterior. Se você criar uma nova filial usando o comando git branch nome_do_branche não fizer o checkout para essa nova filial, as alterações feitas serão registradas na filial atual em que você estava no momento.
 
-//ENTENDENDO UM POUCO MAIS 
+Crie um novo branch com o comando git branch nome_do_branchapenas cria um novo ponteiro de branch, mas não atualize o HEAD para apontar para esse novo branch. Isso significa que os commits serão feitos no branch atual, mesmo que você tenha criado um novo branch.*/
+
+
+//ENTENDENDO UM POUCO MAIS SOBRE O GITHUB
 /* 
 Quando você realiza um commit, o Git cria um registro permanente das alterações realizadas nos arquivos do seu repositório. Esses registros são armazenados em um banco de dados interno do Git, juntamente com metadados, como informações do autor, data e hora do commit, e uma referência ao commit anterior.
 
 Essas informações são armazenadas no diretório ".git" do seu projeto, que contém todo o histórico do repositório Git, incluindo todos os commits realizados. Portanto, mesmo após desligar e ligar a máquina, as informações sobre os commits permanecerão no repositório local do Git e poderão ser acessadas quando você iniciar o trabalho no projeto.
 
 No entanto, é importante ressaltar que os commits não são sincronizados automaticamente com um repositório remoto. Se você deseja compartilhar seus commits com outras pessoas ou sincronizá-los com um servidor remoto, você precisará usar o comando "git push" para enviar os commits para o repositório remoto correspondente. */
+
 
 
 //comando útil para abrir o terminal control+shift+'
