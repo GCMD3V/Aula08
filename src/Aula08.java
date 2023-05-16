@@ -2,7 +2,6 @@ public class Aula08 {
     public static void main(String[] args) throws Exception {
         System.out.println("Vamos em frente!");
         System.out.println("Adicionar GitHub");
-        System.out.println("Adicionar novaVersao");
 
 
 
@@ -26,5 +25,6 @@ public class Aula08 {
 // faz uma cópia/clone da versão anterior
 
 // git add .
-// git commit -m "update"
-//git push 
+// git commit -m "nome_do_branch"
+// git push (caso tenha executado o comando -> git push --set-upstream origin newVersion)
+// ou use git push origin nome_do_branch  
