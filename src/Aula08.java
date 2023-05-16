@@ -2,6 +2,8 @@ public class Aula08 {
     public static void main(String[] args) throws Exception {
         System.out.println("Vamos em frente!");
         System.out.println("Adicionar GitHub");
+        System.out.println("Adicionar novaVersao");
+
 
 
 
@@ -25,6 +27,4 @@ public class Aula08 {
 
 // git add .
 // git commit -m "update"
-
-
-//git push origin Aula.08 (update)
+//git push 
