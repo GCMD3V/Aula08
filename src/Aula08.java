@@ -23,5 +23,8 @@ public class Aula08 {
 // enviar alteração
 // faz uma cópia/clone da versão anterior
 
+// git add .
+// git commit -m "update"
+
 
 //git push origin Aula.08 (update)
